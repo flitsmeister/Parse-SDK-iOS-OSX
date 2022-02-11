@@ -9048,6 +9048,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der";
 				SUPPORTS_MACCATALYST = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -9067,6 +9068,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der";
 				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -9079,6 +9081,7 @@
 			buildSettings = {
 				CLANG_MODULES_AUTOLINK = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der";
 				SUPPORTS_MACCATALYST = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -9090,6 +9093,7 @@
 			buildSettings = {
 				CLANG_MODULES_AUTOLINK = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der";
 				SUPPORTS_MACCATALYST = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
